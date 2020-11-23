@@ -1,6 +1,6 @@
 <?php
 /**
- * Jomle Sdmin Page
+ * Jomle Admin Page
  */
 
 ?>

@@ -1,0 +1,74 @@
+/*
+ * Jomle Plugin stylesheet
+ */
+
+.nav-tab-link{
+  float: left;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  margin-left: .5em;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.71428571;
+  font-weight: 600;
+  background: #e5e5e5;
+  color: #555;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-tab-link:hover{
+  border-bottom: 1px solid #f1f1f1;
+  background: #f1f1f1;
+  color: #000;
+}
+.nav-tab-link-active{
+  border-bottom: 1px solid #f1f1f1;
+  background: #f1f1f1;
+  color: #000;
+}
+.nav-tab-wrapper{
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding-top: 9px;
+  padding-bottom: 0;
+  line-height: inherit;
+}
+.nav-tab-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.jomle-settings{
+  padding: 30px 15px 0 15px;
+}
+.submit{
+  padding: 10px 15px;
+}
+#tab-insert tr{
+  height: 50px;
+}
+#tab-insert tr th{
+  padding-right: 20px;
+}
+#tab-insert td input{
+  min-width: 250px;
+  min-height: 22px;
+  resize: both;
+}
+#tab-insert input#shortcode{
+  background-color: #f4f1ed;
+}
+#tab-update table,#tab-update th,#tab-update td{
+  border: 1px solid rgb(146, 146, 146);
+  border-collapse: collapse;
+}
+#tab-update th,#tab-update td{
+  padding: 5px 10px;
+}
+#tab-delete table,#tab-delete th,#tab-delete td{
+  border: 1px solid rgb(146, 146, 146);
+  border-collapse: collapse;
+}
+#tab-delete th,#tab-delete td{
+  padding: 5px 10px;
+}

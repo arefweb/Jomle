@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: d
- * Date: 11/19/2020
- * Time: 7:07 PM
+ * Jomle Sdmin Page
  */
 
 ?>

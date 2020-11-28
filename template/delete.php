@@ -41,34 +41,4 @@
     ?>
 
   </table>
-<?php endif;
-
-// Deleting a row
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete']) ){
-  global $wpdb;
-  $title = $_POST['title'];
-  $text = $_POST['text'];
-  $id = $_POST['id'];
-  if(empty($title) || empty($text)){
-    echo "-> Please fill in all the insert fields <-";
-    return;
-  }
-
-  $table_name = $wpdb->prefix . 'jomle';
-
-  $result = $wpdb->query( $wpdb->prepare(
-    "
-        DELETE FROM $table_name
-        WHERE id = %d",
-    $id
-  ) );
-
-  if(1 === $result){
-    echo "Deleted Successfully";
-  }else{
-    echo "Couldn't delete";
-  }
-
-}
-
-?>
+<?php endif; ?>

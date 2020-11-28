@@ -33,3 +33,5 @@ function eventListenerList(elems, event, tabToggle) {
 var elems = document.querySelectorAll('a.nav-tab-link');
 eventListenerList(elems, 'click', tabToggle);
 
+
+

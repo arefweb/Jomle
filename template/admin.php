@@ -1,6 +1,9 @@
 <?php
 /**
- * Jomle Admin Page
+ * Created by PhpStorm.
+ * User: d
+ * Date: 11/19/2020
+ * Time: 7:07 PM
  */
 
 ?>
@@ -8,10 +11,10 @@
 <div class="wrap">
   <h1>Jomle Settings</h1>
 
-  <div id="tablinks" class="nav-tab-wrapper">
-    <a class="nav-tab-link" href="#tab-insert">Insert</a>
-    <a class="nav-tab-link" href="#tab-update">Update</a>
-    <a class="nav-tab-link" href="#tab-delete">Delete</a>
+  <div id="tablinks" class="nav-tab-wrapper j-wrapper">
+    <a class="nav-tab-link j-link" href="#tab-insert">Insert</a>
+    <a class="nav-tab-link j-link" href="#tab-update">Update</a>
+    <a class="nav-tab-link j-link" href="#tab-delete">Delete</a>
   </div>
 
 

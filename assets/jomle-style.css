@@ -2,7 +2,7 @@
  * Jomle Plugin stylesheet
  */
 
-.nav-tab-link{
+.j-link{
   float: left;
   border: 1px solid #ccc;
   border-bottom: none;
@@ -16,7 +16,7 @@
   text-decoration: none;
   white-space: nowrap;
 }
-.nav-tab-link:hover{
+.j-link:hover{
   border-bottom: 1px solid #f1f1f1;
   background: #f1f1f1;
   color: #000;
@@ -26,14 +26,14 @@
   background: #f1f1f1;
   color: #000;
 }
-.nav-tab-wrapper{
+.j-wrapper{
   border-bottom: 1px solid #ccc;
   margin: 0;
   padding-top: 9px;
   padding-bottom: 0;
   line-height: inherit;
 }
-.nav-tab-wrapper::after {
+.j-wrapper::after {
   content: "";
   display: table;
   clear: both;

@@ -54,7 +54,7 @@ class Jomle{
 
 
   function enqueue(){
-    wp_enqueue_style("jomle-main-style", plugins_url( 'assets/jomle-style.css', __FILE__ ) );
+    wp_enqueue_style("jomle-main-style", plugins_url( 'assets/jomle-style.css', __FILE__ ),  array(), "1.0.0" );
     wp_enqueue_script("jomle-main-script", plugins_url( 'assets/jomle-scripts.js', __FILE__ ),  array(), false, true);
   }
 

@@ -43,38 +43,5 @@
     ?>
 
   </table>
-<?php endif;
-
-// Updating a row
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['update']) ){
-  global $wpdb;
-  $title = $_POST['title'];
-  $text = $_POST['text'];
-  $id = $_POST['id'];
-  if(empty($title) || empty($text)){
-    echo "-> Please fill in all the insert fields <-";
-    return;
-  }
-
-  $table_name = $wpdb->prefix . 'jomle';
-
-  $result = $wpdb->query( $wpdb->prepare(
-    "
-        UPDATE $table_name
-        SET title = %s,
-        text = %s
-        WHERE id = %d",
-    $title, $text, $id
-  ) );
-
-  if(1 === $result){
-    echo "Updated Successfully";
-  }else{
-    echo "Couldn't update";
-  }
-
-
-}
-
-?>
+<?php endif; ?>
 
